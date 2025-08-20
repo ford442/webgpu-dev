@@ -1,5 +1,5 @@
 WGL_BIN_NAME = w0-010
-BETA_BIN_NAME = w0-037
+BETA_BIN_NAME = w0-039
 
 LDFLAGS = -Wl,-O3,--lto-O3,-lc++,-lc++abi,-lm,-ldl
 mLDFLAGS = -Wl,-O3,--lto-O3,-lc++,-lc++abi,-lc
@@ -299,3 +299,4 @@ b3_compute_mod_test6:
 
 all: b3_compute_mod_test5
 	echo 'Built 1ink.us Shaders.'
+
